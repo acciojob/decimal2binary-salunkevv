@@ -1,8 +1,7 @@
 function decimalToBinary(num) {
   //Write you code here
-	  var quotient =Math.floor(num/2);
+	  var quotient =num;
       let binary="";
-   
       while(quotient>=2)
           {
             let remainder = num %2 ;
