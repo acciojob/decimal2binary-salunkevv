@@ -12,7 +12,7 @@ function decimalToBinary(num) {
           }
       binary+=1;
       let ans =[...binary].reverse().join("");
-      console.log(ans);
+      return ans;
   
 }
 
